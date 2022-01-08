@@ -1,0 +1,48 @@
+
+
+
+.cxdiads-yt{
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsla(74, 84%, 66%);
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 4px;
+    transition: all linear .4s;
+    font-weight: 900;
+    color: black;
+}
+.cy-thumbnail{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.cy-title{
+    text-align: center;
+    font-size: larger;
+    font-family: monospace;
+    margin: 4px;
+}
+.cy-title button {
+    float: right;
+    font-weight: bolder;
+}
+#cy-cut{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    border-radius: 50%;
+    background: rgba(135, 244, 248, 0.281);
+    border: 2px solid rgba(214, 233, 42, 0.397);
+    padding: 4px;
+}
+.cy-hide{
+    display: none;
+    width: 0;
+    height: 0;
+}
